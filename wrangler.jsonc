@@ -1,0 +1,22 @@
+{
+  "name": "geonei-israel",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*", "/w/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "geonei-israel",
+      "database_id": "e57e0db4-0979-48f5-bdcc-2c918320f2ff"
+    }
+  ],
+  "vars": {
+    "GOOGLE_CLIENT_ID": "",
+    "ADMIN_EMAIL": ""
+  }
+}
